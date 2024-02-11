@@ -2,7 +2,10 @@ module fiber
 
 go 1.21.3
 
-require github.com/gofiber/fiber/v2 v2.52.0
+require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/gofiber/fiber/v2 v2.52.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
